@@ -141,19 +141,5 @@ public class FileModifier {
         return "W lokalizacji " + path + ". Zmodyfikowano " + counterChanged + " plików typu " + extension + ". Nie zmodyfikowano " + counterUnChanged + " plików typu " + extension + ".";
     }
 
-    public static void main(String[] args) throws IOException, SelectionIsEmptyException, DirectoryIsEmptyExcepion {
-        FileModifier fileModifier = new FileModifier();
-        fileModifier.setPath("D:\\Programowanie\\Applications");
-//        System.out.println(directory.getAllFiles(directory.getPath()));
-//        System.out.println(fileModifier.getFilesOfExtension(fileModifier.getPath(), "txt"));
-        System.out.println(fileModifier.modifyFiles(fileModifier.getPath(),"txt","1","2"));
-        System.out.println(fileModifier.modifyFiles(fileModifier.getPath(),"gif","2","1"));
-//        System.out.println(directory.getFilesOfExtension(directory.getPath(), "bmp"));
-//        System.out.println(directory.getFilesOfExtension(directory.getPath(), "docx"));
-//        System.out.println(fileModifier.readFile("D:\\Programowanie\\Applications\\chuj\\Nowy folder\\aaa.bmp"));
-//        System.out.println(fileModifier.readFile("D:\\Programowanie\\Applications\\chuj\\Nowy folder\\bbb\\papieska.gif"));
-//        System.out.println(directory.readFile("D:\\Pobrane\\Borat.2.Subsequent.Moviefilm.2020.HDRip.XviD.AC3-EVO[TGx]\\Borat.2.Subsequent.Moviefilm.2020.HDRip.XviD.AC3-EVO.avi").toString());
-        //System.out.println(fileModifier.readFile("D:\\Pobrane\\Borat.2.Subsequent.Moviefilm.2020.HDRip.XviD.AC3-EVO[TGx]\\Borat.2.Subsequent.Moviefilm.2020.HDRip.XviD.AC3-EVO.avi"));
-    }
 
 }
