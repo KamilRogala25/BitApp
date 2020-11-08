@@ -1,4 +1,4 @@
-package com.example.demo.exceptions;
+package com.example.BitApp.Exceptions;
 
 public class SelectionIsEmptyException extends Exception {
     public SelectionIsEmptyException(String message) {

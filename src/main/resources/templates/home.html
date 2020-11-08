@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <title>BitApp</title>
+</head>
+<body>
+<form action="/results">
+    <h3 style="text-align: justify">BitApp to rewolucyjny program do podmiany sekwencji bitów we wskazanych plikach. Wystarczy wskazać ścieżkę dostępu i typ plików.</h3>
+    <p>Wybierz ścieżkę dostępu do plików</p>
+    <input type="file" name="path" webkitdirectory directory />
+    <p>Lub wpisz ją manualnie</p>
+    <input type="text" name="path"><br>
+    <p>Podaj typ szukanych plików:</p>
+    <input type="text" name="extension"><br>
+    <p>Wpisz sekwencję bitów do zmiany:</p>
+    <input type="text" name="toFindSequ"><br>
+    <p>Wpisz docelową sekwencję bitów: </p>
+    <input type="text" name="toReplaceSequ"><br>
+    <input type="submit" value="Zmień pliki">
+</form>
+<section style="position: absolute; bottom: 5px; right: 25px;">
+    <p>
+        Sprawdź inne moje projekty
+        <a href="https://github.com/KamilRogala25"
+           target="_blank" title="Like My Page!">
+            github.com/KamilRogala25
+        </a>
+    </p>
+</section>
+</body>
+</html>
